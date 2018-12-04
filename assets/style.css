@@ -1,6 +1,7 @@
-button,
-div,
-form,
+form {
+  color: black;
+}
+
 input {
   margin: 5px;
 }
@@ -15,10 +16,10 @@ label {
 }
 
 .btn-default {
-  color: red !important;
+  color: white !important;
   font-size: medium;
   font-weight: bold;
-  background-color: blue !important;
+  background-color: #01579b !important;
   margin: 2px;
 }
 
@@ -26,6 +27,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #c8102e !important;
 }
 
 .holder {
@@ -34,4 +36,7 @@ body {
 
 .jumbotron {
   text-align: center;
+  color: white;
+  background-color: #01579b !important;
+  margin-top: 15px;
 }
